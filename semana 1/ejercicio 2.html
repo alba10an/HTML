@@ -1,24 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>practico de etiquetas html</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h1><font color="black">INTRODUCCION HTML CSS</font></h1>
-        <br><br><br>
-        <b><font color="red">TEXTO EN NEGRILLA Y COLOR ROJO</font></b>
-        <br>
-        <u><i><font color="blue">Hoja de estilo en cascada</font></font></i></u>
-        <hr align="center" width="50%" color="black">
-        <font color="blue" face="ravie">la forma quimica del agua es H <sub><font color="green">2</font></sub>0</font>
-        <br>
-        <font color="purple"><s>LANXAMIENTO EN 1996.</s><i>como complemento de documentos extructurados</i><b> simple
-        flexible y combinacion con otros lenguajes</b></font>
-        <hr align="center" width="88%">
-        <font color="red" size="12" face="calibri">Una ecuacion en tercer grado:
-        </font>A <sup><font color="blue">3</font></sup>+B<sup><font color="green">2</font></sup>+C
-    </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+        .sponsive{
+            max-width: 100%;
+            height: auto;
+        }
+        body{ 
+            background-image: url(img/M314_1080x.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Babylonica', cursive;
+            }
+        h1,h2{
+            text-align: center;
+            color: white;
+        }
+        .responsive:hover{
+        filter: grayscale(100%);
+        transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    
+    <a id="INICIO"></a><br>
+    <marquee behavior="alternate" direction="right" style="font-size: 35px; background-color: rgb(43, 173, 54);"> WEB RESPONSIVE CON HIPERVINCULOS Y VIDEOS </marquee>
+
+    <hr><hr>
+    <center>
+    <h1>SECCION DE HIPERVINCULOS</h1>
+    </center>
+    <br>
+    <center>
+    <a href="http://www.youtube.com" target="_blank"> VER VIDEOS EN YOUTUBE</a><br><br>
+    <a href="http://www.eltiempo.com" target="_blank"> VER NOTICIAS EN EL TIEMPO</a><br><br>
+    <a href="http://www.incap.edu.co" target="_blank"> IR A PAGINA WEB INCAP</a><br><br>
+    <a href="http://www.unigermana.edu.co" target="_blank"> IR A PAGINA WEB UNIGERMANA</a><br><br>
+    <a href="http://www.as.com" target="_blank"> VER NOTICIAS DEPORTIVAS EN AS</a><br><br>
+    <a href="EJERCICIO 1.HTML" target="_blank"> VER TALLER HTML</a><br><br>
+    </center>
+    <hr><hr>
+    <h2>SECCION DE REDES SOCIALES</h2>
+    <center>
+    <img class="responsive" src="img/face.png" alt="" width="100px" height="90px">
+    <img class="responsive" src="img/twitter.png" alt="" width="100px" height="90px">
+    <img class="responsive" src="img/instagram.png" alt="" width="100px" height="90px">
+    <img class="responsive" src="img/whatsapp.png" alt="" width="100px" height="90px">
+    </center>
+    <br><br><br><br>
+    <hr><hr>
+    <h2>SECCION DE VIDEOS EMBEBIDOS</h2>
+    <br>
+    <center>
+        <iframe class="responsive" width="560" height="315" src="https://www.youtube.com/embed/sX3SEwjW2x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </center>
+    <hr><hr>
+    <h2>SECCION PROGRAMAS DE DICEÑO WEB</h2>
+    <center>
+    <img class="responsive" src="img/HTML5.png" alt="" width="100" height="100">
+    <img class="responsive" src="img/css3.png" alt="" width="100" height="100">
+    <P> esta materia de HTML es muy importante conocerla por la continua estructuracion de las paginas web</P>
+    <P> CSS es un complemento de estilos basicos y avanzados</P>
+    </center>
+    <hr><hr>
+    <center>
+    <a href="#INICIO"><img src="img/inicio.jpg" width="80" height="70" alt="Inicio"></a>
+    <br><br>
+    <cite> Creado por: @andres sanchez</cite>
+    </center>
+</body>
 </html>
