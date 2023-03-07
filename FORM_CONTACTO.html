@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO Y ESTILO CSS</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    
+</head>
+<body>
+    <header>
+    <img src="../img/incap.png" width="100" height="100" alt="incap">
+    <h1>FORMULARIO Y LISTAS HTML</h1>
+    </header>
+    <nav>
+    <ul>
+        <li>HOME</li>
+        <li>PRODUCTOS</li>
+        <li>SERVICOS</li>
+        <li>CONTACTOS</li>
+    </ul>
+    </nav>
+    <section>
+        <form action="datos.php" method="post">
+        <fieldset>
+        <label>NOMBRE COMPLETO:</label>
+        <input name="nombre" type="text" placeholder="&#9756; ingrese su nombre completo" required="">
+        <br><br>
+
+        <label> EMAIL:</label>
+        <input name="email" type="email" placeholder="&#9874;ingrese su email" required="">
+        <br><br>
+
+        <label> CONTRASEÑA:</label>
+        <input name="contraseña" type="password" placeholder="&#9745; ingrese su contraseña" required="">
+        <br><br>
+
+        <label> SELECCIONA TUS HOBBIES:</label><br>
+        <input name="cine" type="checkbox">cine <br>
+        <input name="lectura" type="checkbox">lectura <br>
+        <input name="deporte" type="checkbox">deporte <br>
+
+        <label>ESTADO CIVIL:</label><br>
+        <input name="estcivil" type="radio" value="casado">casado(a)<br>
+        <input name="estcivil" type="radio" value="soltero">soltero(a)<br>
+        <input name="estcivil" type="radio" value="viudo">viudo(a)<br>
+
+        <label>PROGRAMAS TECNICOS:</label>
+        <select name="select">
+            <option>seleccione programa...</option>
+            <option>sistemas</option>
+            <option>diceño grafico</option>
+            <option>contavilidad</option>
+        </select><br><br>
+
+        <label>TU COMENTARIO:</label>
+        <textarea name="mensaje" rows="5" cols="40"></textarea>
+        </fieldset>
+        <br><br>
+        <hr>
+        <button type="submit">enviar</button>
+        <button type="reset">cancelar</button>
+        <br><br>
+    </form>
+    </section>
+    <footer>
+        derechos reservados &COPY;2022&#64;NOMBRE STD
+    </footer>
+</body>
+</html>
